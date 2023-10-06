@@ -4,14 +4,17 @@ import HeaderStyle from "./Header.module.css";
 const DesktopHeader = () => {
     const headContainer = HeaderStyle.headContainer
     const headerImageContainer = HeaderStyle.headerImageContainer
+    const headerImage = HeaderStyle.headerImage
     const bottmBackground = HeaderStyle.bottmBackground
     const headSection1 = HeaderStyle.headSection1
+    const headerTitleContainer = HeaderStyle.headerTitleContainer
+    const headerTitle = HeaderStyle.headerTitle
     return (
     <header className={headContainer}>
         <div className={headSection1}>
             {/* <h1>Herman Taylor</h1> */}
-            <div>
-                <img src='/assets/header-title.png' alt='Header Title'/>
+            <div className={headerTitleContainer}>
+                <img className={headerTitle} src='/assets/header-title.png' alt='Header Title'/>
             </div>
             <h2>Author and Public Speaker</h2>
             <button>Book now</button>
@@ -20,8 +23,8 @@ const DesktopHeader = () => {
                <img src='/assets/instagram-icon.png' alt='Instagram Icon'/>
             </div>
         </div>
-        <div >
-            <img src='/assets/herman-header-image.jpg' alt='Herman Taylor' className={headerImageContainer}/>
+        <div className={headerImageContainer} >
+            <img src='/assets/herman-header-image.jpg' alt='Herman Taylor' className={headerImage}/>
             <img src='/assets/header-bottom-corner.png' alt='Herman Taylor' className={bottmBackground}/>
         </div>
     </header>
