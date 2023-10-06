@@ -13,6 +13,8 @@
 .headSection1{
     width: 70%;
     background-image: url(/public/assets/header-bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .headerImageContainer{
