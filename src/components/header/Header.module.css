@@ -27,6 +27,15 @@
 .headerTitle{
     width: 100%;
 }
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.headerBtn{
+   padding: 2em;
+   /* margin: auto; */
+}
 .headerImageContainer{
     width: 50%;
     height: 100vh;
