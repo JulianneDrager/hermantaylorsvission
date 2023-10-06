@@ -12,6 +12,9 @@ const DesktopHeader = () => {
                <img src='../assets/facebook-icon.png' alt='Facebook Icon'/>
                <img src='../assets/instagram-icon.png' alt='Instagram Icon'/>
             </div>
+            <div>
+                <img src='../assets/herman-header-image.jpg' alt='Herman Taylor'/>
+            </div>
         </div>
     </header>
   )
