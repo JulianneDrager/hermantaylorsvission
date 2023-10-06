@@ -3,9 +3,16 @@ import React from 'react'
 
 const DesktopHeader = () => {
   return (
-    <div>
-
-    </div>
+    <header>
+        <div>
+            <h1>Herman Taylor</h1>
+            <h2>Author and Public Speaker</h2>
+            <button>Book now</button>
+            <div>
+                
+            </div>
+        </div>
+    </header>
   )
 }
 
