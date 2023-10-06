@@ -4,9 +4,11 @@ import HeaderStyle from "./Header.module.css";
 const DesktopHeader = () => {
     const headContainer = HeaderStyle.headContainer
     const headerImageContainer = HeaderStyle.headerImageContainer
-  return (
+    const bottmBackground = HeaderStyle.bottmBackground
+    const headSection1 = HeaderStyle.headSection1
+    return (
     <header className={headContainer}>
-        <div>
+        <div className={headSection1}>
             <h1>Herman Taylor</h1>
             <h2>Author and Public Speaker</h2>
             <button>Book now</button>
@@ -17,6 +19,7 @@ const DesktopHeader = () => {
         </div>
         <div >
             <img src='/assets/herman-header-image.jpg' alt='Herman Taylor' className={headerImageContainer}/>
+            <img src='/assets/header-bottom-corner.png' alt='Herman Taylor' className={bottmBackground}/>
         </div>
     </header>
   )

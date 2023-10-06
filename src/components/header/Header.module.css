@@ -5,14 +5,22 @@
 }
 
 .headContainer{
-    background-image: url(/public/assets/header-bacground.jpg);
     width: 100%;
     display: flex;
     position: relative;
     justify-content: center;
 }
-
+.headSection1{
+    width: 70%;
+    background-image: url(/public/assets/header-bacground.jpg);
+}
 
 .headerImageContainer{
-    width: 50%;
+    width: 100%;
+}
+.bottmBackground{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
