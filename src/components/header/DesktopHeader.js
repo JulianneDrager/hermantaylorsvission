@@ -9,7 +9,8 @@ const DesktopHeader = () => {
             <h2>Author and Public Speaker</h2>
             <button>Book now</button>
             <div>
-                
+               <img src='../assets/facebook-icon.png' alt='Facebook Icon'/>
+               <img src='../assets/instagram-icon.png' alt='Instagram Icon'/>
             </div>
         </div>
     </header>
