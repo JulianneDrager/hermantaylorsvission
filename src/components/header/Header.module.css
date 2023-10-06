@@ -15,9 +15,12 @@
     width: 50%;
     background-image: url(/public/assets/header-bacground.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    place-items: center;
+    background-size:auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
 }
 .headerTitleContainer{
     width: 80%;
