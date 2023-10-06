@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderStyle from "./Header.module.css";
+import Article from './Article';
 
 const DesktopHeader = () => {
     const headContainer = HeaderStyle.headContainer
@@ -15,7 +16,8 @@ const DesktopHeader = () => {
     const headerLinksCon = HeaderStyle.headerLinksCon
     const contenth2 = HeaderStyle.contenth2
     return (
-    <header className={headContainer}>
+    <header>
+        <div className={headContainer}>
         <div className={headSection1}>
             {/* <h1>Herman Taylor</h1> */}
             <div className={headerTitleContainer}>
@@ -36,6 +38,8 @@ const DesktopHeader = () => {
             <img src='/assets/herman-header-image.jpg' alt='Herman Taylor' className={headerImage}/>
             <img src='/assets/header-bottom-corner.png' alt='Herman Taylor' className={bottmBackground}/>
         </div>
+        </div>
+        <Article/>
     </header>
   )
 }
