@@ -12,6 +12,8 @@ const DesktopHeader = () => {
     const headerContent = HeaderStyle.headerContent
     const headerBtn = HeaderStyle.headerBtn
     const headerBtnContainer = HeaderStyle.headerBtnContainer
+    const headerLinksCon = HeaderStyle.headerLinksCon
+    const contenth2 = HeaderStyle.contenth2
     return (
     <header className={headContainer}>
         <div className={headSection1}>
@@ -20,11 +22,11 @@ const DesktopHeader = () => {
                 <img className={headerTitle} src='/assets/header-title.png' alt='Header Title'/>
             </div>
             <div className={headerContent}>
-            <h2>Author and Public Speaker</h2>
+            <h2 className={contenth2}>AUTHOR & <br/> PUBLIC SPEAKER</h2>
             <div className={headerBtnContainer}>
-            <button className={headerBtn}>Book now</button>
+            <button className={headerBtn}>BOOK NOW</button>
             </div>
-            <div>
+            <div className={headerLinksCon}>
                <a href=''><img src='assets/facebook-icon.png' alt='Facebook Icon'/></a>
                <a href=''><img src='/assets/instagram-icon.png' alt='Instagram Icon'/></a>
             </div>

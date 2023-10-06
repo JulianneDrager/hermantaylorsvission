@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -10,6 +12,7 @@
     position: relative;
     /* justify-content: center; */
     height: 100vh;
+    margin: 0 auto;
 }
 .headSection1{
     width: 50%;
@@ -21,8 +24,9 @@
     flex-direction: column;
 }
 .headerTitleContainer{
-    width: 80%;
-    padding-top: 7em;
+    width: 75%;
+    padding-top: 8em;
+    margin-bottom: 0;
 }
 .headerTitle{
     width: 100%;
@@ -30,11 +34,29 @@
 .headerContent{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.contenth2{
+    font-size: 3rem;
+    font-family: "EB Garamond";
 }
 .headerBtn{
-   padding: 2em;
+   padding: 1.1em  7em;
+   font-weight: 500;
+   font-size: 1.2rem;
+   color: #ffffff;
+   background-color: #BD742C;
+   border: none;
+   cursor: pointer;
    /* margin: auto; */
+}
+.headerLinksCon{
+    display: flex;
+}
+.headerLinksCon img{
+    width: 60%;
 }
 .headerImageContainer{
     width: 50%;
