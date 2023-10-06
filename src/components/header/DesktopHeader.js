@@ -3,6 +3,7 @@ import HeaderStyle from "./Header.module.css";
 
 const DesktopHeader = () => {
     const headContainer = HeaderStyle.headContainer
+    const headerImageContainer = HeaderStyle.headerImageContainer
   return (
     <header className={headContainer}>
         <div>
@@ -14,8 +15,8 @@ const DesktopHeader = () => {
                <img src='/assets/instagram-icon.png' alt='Instagram Icon'/>
             </div>
         </div>
-        <div>
-            <img src='/assets/herman-header-image.jpg' alt='Herman Taylor'/>
+        <div >
+            <img src='/assets/herman-header-image.jpg' alt='Herman Taylor' className={headerImageContainer}/>
         </div>
     </header>
   )
