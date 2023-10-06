@@ -1,11 +1,15 @@
 import React from 'react'
+import ArticleStyle from "./Article.module.css"
 
 const Article = () => {
+    const bookTitleCon = ArticleStyle.bookTitleCon
+    const subBookTitleCon = ArticleStyle.subBookTitleCon
   return (
     <article>
-        <div>
-            <p>Coming soon to a bookstore near you</p>
-            <img src='/public/assets/book-title.png' alt='Book Title'/>
+        <div className={bookTitleCon}>
+            <div className={subBookTitleCon}>
+            <img src='/assets/book-title.png' alt='Book Title'/>
+            </div>
         </div>
     </article>
   )
