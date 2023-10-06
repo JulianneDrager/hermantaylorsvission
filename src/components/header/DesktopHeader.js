@@ -9,7 +9,10 @@ const DesktopHeader = () => {
     return (
     <header className={headContainer}>
         <div className={headSection1}>
-            <h1>Herman Taylor</h1>
+            {/* <h1>Herman Taylor</h1> */}
+            <div>
+                <img src='/assets/header-title.png' alt='Header Title'/>
+            </div>
             <h2>Author and Public Speaker</h2>
             <button>Book now</button>
             <div>
