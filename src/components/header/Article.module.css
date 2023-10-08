@@ -29,5 +29,6 @@
 .quoteMarkDown{
     position: absolute;
     bottom: -2rem;
-    right: -4rem;
+    right: -2rem;
+    transform: rotate(180deg);
 }
