@@ -1,31 +1,43 @@
+
 .bookTitleCon{
     background: url(/public/assets/purple-gradient.png);
-    
+    position: relative;
 }
 
 .subBookTitleCon{
     margin: auto;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     padding: 3em 0;
 }
+.subBookTitle{
+    width: 100%;
+}
 .bookCoverCon{
     display: flex;
-    padding: 3em 0;
+    padding: 0 0 4em 0;
     background-color: black;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
 .bookCover{
-    width: 50%;
+    width: 60%;
+    position: absolute;
+    top: 59rem;
+    left: -5rem;
+}
+.bookQuoteWrap{
+    margin-left: 36em;
+    
 }
 .quoteCon{
     position: relative;
     padding: 3em 0;
     color: #ffffff;
-    width: 70%;
+    width: 60%;
+    
 }
 .quoteMarkUp{
     position: absolute;

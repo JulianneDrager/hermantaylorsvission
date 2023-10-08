@@ -10,17 +10,20 @@ const Article = () => {
     const quoteMarkUp = ArticleStyle.quoteMarkUp
     const quoteMarkDown = ArticleStyle.quoteMarkDown
     const orderBtn = ArticleStyle.orderBtn
+    const articleMainCon = ArticleStyle.articleMainCon
+    const bookQuoteWrap = ArticleStyle.bookQuoteWrap
+    const subBookTitle = ArticleStyle.subBookTitle
 
   return (
-    <article>
+    <article className={articleMainCon}> 
         <div className={bookTitleCon}>
             <div className={subBookTitleCon}>
-            <img src='/assets/book-title.png' alt='Book Title'/>
+            <img src='/assets/book-title.png' alt='Book Title' className={subBookTitle}/>
             </div>
         </div>
         <div className={bookCoverCon}>
           <img className={bookCover} src='/assets/book-cover-with-fire-bottom.png' alt='Book Cover'/>
-        <div>
+        <div className={bookQuoteWrap}>
         <div className={quoteCon}>
           <img className={quoteMarkUp} src='/assets/quote-corner.png' alt='quote'/>
           <h2>ENIM AD</h2>
