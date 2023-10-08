@@ -9,6 +9,7 @@ const Article = () => {
     const quoteCon = ArticleStyle.quoteCon
     const quoteMarkUp = ArticleStyle.quoteMarkUp
     const quoteMarkDown = ArticleStyle.quoteMarkDown
+    const orderBtn = ArticleStyle.orderBtn
 
   return (
     <article>
@@ -32,7 +33,7 @@ const Article = () => {
           <p>For more than 30 years, people like you have been elevating their careers with Cisco Certifications. Learn how these IT professionals</p>
           <img className={quoteMarkDown} src='/assets/quote-corner.png' alt='quote'/>
         </div>
-        <button>ORDER NOW</button>
+        <button className={orderBtn}>ORDER NOW</button>
         </div>
         </div>
     </article>

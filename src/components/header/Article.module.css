@@ -14,6 +14,9 @@
     display: flex;
     padding: 3em 0;
     background-color: black;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 .bookCover{
     width: 50%;
@@ -35,4 +38,11 @@
     right: 2rem;
     transform: rotate(180deg);
      width: 15%;
+}
+.orderBtn{
+    padding: 1em 3em;
+    background-color: #391F44;
+    border: 2px solid #AA9389;
+    border-radius: .5rem;
+
 }
