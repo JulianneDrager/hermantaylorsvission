@@ -12,18 +12,22 @@
 }
 .bookCoverCon{
     display: flex;
+    padding: 3em 0;
 }
 .bookCover{
     width: 50%;
 }
 .quoteCon{
     position: relative;
+    padding: 1.5em 0;
 }
 .quoteMarkUp{
     position: absolute;
-    top: -3rem;
-    left: 0;
+    top: -2rem;
+    left: -4rem;
 }
 .quoteMarkDown{
     position: absolute;
+    bottom: -2rem;
+    right: -4rem;
 }
