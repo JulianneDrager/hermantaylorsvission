@@ -7,6 +7,8 @@ const Article = () => {
     const bookCoverCon = ArticleStyle.bookCoverCon
     const bookCover = ArticleStyle.bookCover
     const quoteCon = ArticleStyle.quoteCon
+    const quoteMarkUp = ArticleStyle.quoteMarkUp
+    const quoteMarkDown = ArticleStyle.quoteMarkDown
 
   return (
     <article>
@@ -19,16 +21,16 @@ const Article = () => {
           <img className={bookCover} src='/assets/book-cover-with-fire-bottom.png' alt='Book Cover'/>
         <div>
         <div className={quoteCon}>
-          <img src='/assets/quote-corner.png' alt='quote'/>
+          <img className={quoteMarkUp} src='/assets/quote-corner.png' alt='quote'/>
           <h2>ENIM AD</h2>
           <p>For more than 30 years, people like you have been elevating their careers with Cisco Certifications. Learn how these IT professionals</p>
-          <img src='/assets/quote-corner.png' alt='quote'/>
+          <img className={quoteMarkDown} src='/assets/quote-corner.png' alt='quote'/>
         </div>
         <div className={quoteCon}>
-          <img src='/assets/quote-corner.png' alt='quote'/>
+          <img className={quoteMarkUp} src='/assets/quote-corner.png' alt='quote'/>
           <h2>ENIM AD</h2>
           <p>For more than 30 years, people like you have been elevating their careers with Cisco Certifications. Learn how these IT professionals</p>
-          <img src='/assets/quote-corner.png' alt='quote'/>
+          <img className={quoteMarkDown} src='/assets/quote-corner.png' alt='quote'/>
         </div>
         <button>ORDER NOW</button>
         </div>
