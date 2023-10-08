@@ -13,6 +13,7 @@
 .bookCoverCon{
     display: flex;
     padding: 3em 0;
+    background-color: black;
 }
 .bookCover{
     width: 50%;
@@ -20,6 +21,7 @@
 .quoteCon{
     position: relative;
     padding: 3em 0;
+    color: #ffffff;
 }
 .quoteMarkUp{
     position: absolute;
