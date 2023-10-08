@@ -11,6 +11,9 @@ const Article = () => {
             <img src='/assets/book-title.png' alt='Book Title'/>
             </div>
         </div>
+        <div>
+          <img src='/assets/book-cover-with-fire-bottom.png' alt='Book Cover'/>
+        </div>
     </article>
   )
 }

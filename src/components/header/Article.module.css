@@ -2,11 +2,11 @@
     background: url(/public/assets/purple-gradient.png);
     
 }
+
 .subBookTitleCon{
     margin: auto;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    justify-items: center;
+    padding: 3em 0;
 }
