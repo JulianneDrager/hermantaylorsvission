@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderStyle from "./Header.module.css";
 import Article from './Article';
+import Interview from './Interview';
 
 const DesktopHeader = () => {
     const headContainer = HeaderStyle.headContainer
@@ -40,6 +41,7 @@ const DesktopHeader = () => {
         </div>
         </div>
         <Article/>
+        <Interview/>
     </header>
   )
 }
