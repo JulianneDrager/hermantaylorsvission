@@ -15,13 +15,19 @@
     width: 100%;
 }
 .bookCoverCon{
-    display: flex;
-    padding: 0 0 4em 0;
+    /* display: flex; */
+    padding:  15em ;
     background-color: black;
-    margin: 0 auto;
+    /* margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
      position: relative;
+}
+.leftFireBolt{
+    position: absolute;
+    top: -11rem;
+    right: 0;
+    width: 35%;
 }
 .bookCover{
     width: 60%;
@@ -30,7 +36,10 @@
     left: -5rem;
 }
 .bookQuoteWrap{
-    margin-left: 36em;
+    /* margin-left: 36em; */
+    position: absolute;
+    top: 0;
+    right: -11rem;
     
 }
 .quoteCon{

@@ -13,6 +13,7 @@ const Article = () => {
     const articleMainCon = ArticleStyle.articleMainCon
     const bookQuoteWrap = ArticleStyle.bookQuoteWrap
     const subBookTitle = ArticleStyle.subBookTitle
+    const leftFireBolt = ArticleStyle.leftFireBolt
 
   return (
     <article className={articleMainCon}> 
@@ -22,6 +23,7 @@ const Article = () => {
             </div>
         </div>
         <div className={bookCoverCon}>
+          <img className={leftFireBolt} src='/assets/fire-bolt-left-side.png' alt='fire bolt'/>
           <img className={bookCover} src='/assets/book-cover-with-fire-bottom.png' alt='Book Cover'/>
         <div className={bookQuoteWrap}>
         <div className={quoteCon}>
