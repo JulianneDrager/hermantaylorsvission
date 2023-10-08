@@ -6,6 +6,7 @@ const Article = () => {
     const subBookTitleCon = ArticleStyle.subBookTitleCon
     const bookCoverCon = ArticleStyle.bookCoverCon
     const bookCover = ArticleStyle.bookCover
+    const quoteCon = ArticleStyle.quoteCon
 
   return (
     <article>
@@ -17,13 +18,13 @@ const Article = () => {
         <div className={bookCoverCon}>
           <img className={bookCover} src='/assets/book-cover-with-fire-bottom.png' alt='Book Cover'/>
         <div>
-        <div>
+        <div className={quoteCon}>
           <img src='/assets/quote-corner.png' alt='quote'/>
           <h2>ENIM AD</h2>
           <p>For more than 30 years, people like you have been elevating their careers with Cisco Certifications. Learn how these IT professionals</p>
           <img src='/assets/quote-corner.png' alt='quote'/>
         </div>
-        <div>
+        <div className={quoteCon}>
           <img src='/assets/quote-corner.png' alt='quote'/>
           <h2>ENIM AD</h2>
           <p>For more than 30 years, people like you have been elevating their careers with Cisco Certifications. Learn how these IT professionals</p>
