@@ -1,0 +1,15 @@
+
+
+
+
+.interviewSubCon{
+display: grid;
+place-items: center;
+color: #ffffff;
+background-color: black;
+}
+.interviewDisplay{
+    width: 50%;
+    height: 50vh;
+    background-color: #391F44;;
+}
