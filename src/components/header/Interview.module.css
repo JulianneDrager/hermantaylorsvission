@@ -8,16 +8,16 @@
     top: 0;
     left: 0;
     width: 50%;
-    height: 82.5vh;
+    height: 100vh;
      z-index: -1;
      transform: rotate(180deg);
      
 }
 .rightCorner{
     position: absolute;
-    bottom: 0;
+    bottom: .4rem;
     right: 0;
-    width: 50%;
+    width: 60%;
     height: 100vh;
     z-index: -1;
      transform: rotate(180deg);
@@ -27,6 +27,7 @@
 .interviewSubCon{
 display: grid;
 place-items: center;
+gap: 2rem;
 color: #ffffff;
 padding: 4em ;
 width: 100%;
@@ -34,6 +35,6 @@ width: 100%;
 }
 .interviewDisplay{
     width: 50%;
-    height: 50vh;
+    height: 60vh;
     background-color: #391F44;;
 }
