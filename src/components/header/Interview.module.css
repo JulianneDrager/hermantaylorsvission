@@ -1,12 +1,27 @@
+.interviewCon{
+    background-color: black;
+    position: relative;
+}
 
-
+.leftCorner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+}
+.rightCorner{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+}
 
 
 .interviewSubCon{
 display: grid;
 place-items: center;
 color: #ffffff;
-background-color: black;
+
 }
 .interviewDisplay{
     width: 50%;
