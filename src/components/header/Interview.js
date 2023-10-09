@@ -7,11 +7,12 @@ const Interview = () => {
     const interviewCon = StyleInterview.interviewCon
     const leftCorner = StyleInterview.leftCorner
     const rightCorner = StyleInterview.rightCorner
+    const goldWords = StyleInterview.goldWords
     return (
     <div className={interviewCon}>
         <img className={leftCorner} src='/assets/left-corner-background.png'alt='left corner background'/>
         <div className={interviewSubCon}>
-        <h1><span>LIFE'S CHAPTER</span><br/>HERMAN'S EXCLUSIVE INTERVIEW</h1>
+        <h1><span className={goldWords}>LIFE'S CHAPTER</span><br/>HERMAN'S EXCLUSIVE INTERVIEW</h1>
     <div className={interviewDisplay}></div>
     </div>
     <img className={rightCorner} src='/assets/right-corner-background.png'alt='left corner background' />
