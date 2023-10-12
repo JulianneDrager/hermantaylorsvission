@@ -24,7 +24,7 @@ const Interview = () => {
       <h2 className={mailConh2}>CONTACT </h2>
       <h2>HERMAN@GMAIL.COM</h2>
     </div>
-    <footer className={footerDesktop}>COPY RIGHT {currentYear} DESIGNINGGLORY.COM </footer>
+    <footer className={footerDesktop}>COPY RIGHT @ {currentYear} DESIGNINGGLORY.COM </footer>
     </div>
     <img className={rightCorner} src='/assets/right-corner-background.png'alt='left corner background' />
     </div>
