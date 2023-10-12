@@ -17,6 +17,7 @@
 .headSection1{
     width: 50%;
     background-image: url(/public/assets/header-bacground.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-size:cover;
     color: #ffffff;

@@ -1,7 +1,7 @@
 
 .bookTitleCon{
-    background: url(/public/assets/purple-gradient.png);
-   
+    background-image: url(/public/assets/purple-gradient.png);
+   background-color: black;
 }
 
 .subBookTitleCon{
@@ -51,7 +51,7 @@
 }
 .quoteMarkUp{
     position: absolute;
-    top: 2.5rem;
+    top: 1.5rem;
     left: -3rem;
     width: 15%;
 }
