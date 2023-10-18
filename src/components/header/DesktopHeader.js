@@ -1,49 +1,48 @@
-import React from 'react'
+import React from "react";
 import HeaderStyle from "./Header.module.css";
-import Article from './Article';
-import Interview from './Interview';
+import SocialMediaSection from "./socailMediaSection";
+import HeaderImage from "../../images/header-images//herman-header-image.png";
+import Title from "./Title";
+import SubTitle from "./SubTitle";
+import Article from "./Article";
+import Interview from "./Interview";
+import { Button, Col, Image, Row } from "react-bootstrap";
 
 const DesktopHeader = () => {
-    const headContainer = HeaderStyle.headContainer
-    const headerImageContainer = HeaderStyle.headerImageContainer
-    const headerImage = HeaderStyle.headerImage
-    const bottmBackground = HeaderStyle.bottmBackground
-    const headSection1 = HeaderStyle.headSection1
-    const headerTitleContainer = HeaderStyle.headerTitleContainer
-    const headerTitle = HeaderStyle.headerTitle
-    const headerContent = HeaderStyle.headerContent
-    const headerBtn = HeaderStyle.headerBtn
-    const headerBtnContainer = HeaderStyle.headerBtnContainer
-    const headerLinksCon = HeaderStyle.headerLinksCon
-    const contenth2 = HeaderStyle.contenth2
-    return (
-    <header>
-        <div className={headContainer}>
-        <div className={headSection1}>
-            {/* <h1>Herman Taylor</h1> */}
-            <div className={headerTitleContainer}>
-                <img className={headerTitle} src='/assets/header-title.png' alt='Header Title'/>
-            </div>
-            <div className={headerContent}>
-            <h2 className={contenth2}>AUTHOR & <br/> PUBLIC SPEAKER</h2>
-            <div className={headerBtnContainer}>
-            <button className={headerBtn}>BOOK NOW</button>
-            </div>
-            <div className={headerLinksCon}>
-               <a href=''><img src='assets/facebook-icon.png' alt='Facebook Icon'/></a>
-               <a href=''><img src='/assets/instagram-icon.png' alt='Instagram Icon'/></a>
-            </div>
-            </div>
-        </div>
-        <div className={headerImageContainer} >
-            <img src='/assets/herman-header-image.jpg' alt='Herman Taylor' className={headerImage}/>
-            <img src='/assets/header-bottom-corner.png' alt='Herman Taylor' className={bottmBackground}/>
-        </div>
-        </div>
-        <Article/>
-        <Interview/>
-    </header>
-  )
-}
+  const rowHeight = HeaderStyle.rowHeight;
+  const subTitleCol = HeaderStyle.subTitleCol;
+  const BottomRightTri = HeaderStyle.BottomRightTri;
+  const HeadImgSize = HeaderStyle.HeadImgSize;
+  const headContainer = HeaderStyle.headContainer;
+  const headSection1 = HeaderStyle.headSection1;
+  const headerBtn = HeaderStyle.headerBtn;
 
-export default DesktopHeader
+  return (
+    <>
+      <div className={headContainer}>
+        <div className={headSection1}>
+          <div  className={rowHeight}></div >
+          <div >
+            <Title />
+            <div className={subTitleCol}>
+              <SubTitle />
+              <Button className={headerBtn}>PURCHASE NOW</Button>
+              <SocialMediaSection />
+            </div>
+          </div >
+        </div>
+        <Image src={HeaderImage} className={HeadImgSize} />
+      </div>
+      <div >
+        <div className={BottomRightTri}></div>
+        <div>
+        </div>
+      </div >
+
+      {/* <Article/>
+        <Interview/> */}
+    </>
+  );
+};
+
+export default DesktopHeader;
