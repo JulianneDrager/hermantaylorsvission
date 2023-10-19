@@ -2,7 +2,20 @@
 
 /* mobile viewport @320px and lower */
 
-@media screen and (min-width: 370px) {}
+@media screen and (min-width: 370px) {
+    .headerTitle{
+        width: 87%;
+        padding: 0.3em 0 0 0.3em;
+    }
+
+    .headerTitleContainer{
+        text-align: center;
+        background-image: url("../../images/mobile-header-images/mobile-header-left-top-corner.png");
+        background-repeat: no-repeat;
+        background-size: 27% 84%;
+        border-bottom: 7px solid #412180;
+    }
+}
 
 @media screen and (min-width: 600px) {}
 
@@ -19,7 +32,7 @@
         width: 100%;
         display: flex;
         position: relative;
-        /* justify-content: center; */
+        justify-content: center;
         height: 100vh;
         margin: 0 auto;
     }
@@ -60,7 +73,7 @@
        background-color: #BD742C;
        border: none;
        cursor: pointer;
-       /* margin: auto; */
+       margin: auto;
     }
     .headerLinksCon{
         display: flex;
