@@ -5,9 +5,9 @@ import Article from "./Article";
 import Interview from "./Interview";
 
 const DesktopHeader = () => {
-  const ColorWhite ={color: "white"}
+  const ColorWhite = { color: "white" };
   const headerImgBack = HeaderStyle.headerImgBack;
-  const gradient = HeaderStyle.gradient
+  const gradient = HeaderStyle.gradient;
   const headContainer = HeaderStyle.headContainer;
   const headerImageContainer = HeaderStyle.headerImageContainer;
   const headerImage = HeaderStyle.headerImage;
@@ -34,20 +34,25 @@ const DesktopHeader = () => {
           </div>
           <div className={headerImgBack}>
             <div className={gradient}>
-              <Row><Col style={ColorWhite}>1</Col>
-              <Col>
-              2 <div className={headerLinksCon}>
-              <a href="">
-              <img src="assets/facebook-icon.png" alt="Facebook Icon" />
-              </a>
-              <a href="">
-              <img src="/assets/instagram-icon.png" alt="Instagram Icon" />
-              </a>
+              <Row>
+                <Col style={ColorWhite}>1</Col>
+                <Col style={ColorWhite}>
+                  2{" "}
+                  <div className={headerLinksCon}>
+                    <a href="">
+                      <img src="assets/facebook-icon.png" alt="Facebook Icon" />
+                    </a>
+                    <a href="">
+                      <img
+                        src="/assets/instagram-icon.png"
+                        alt="Instagram Icon"
+                      />
+                    </a>
+                  </div>
+                </Col>
+              </Row>
             </div>
-            </Col>
-            </Row>
-            </div>
-            </div>
+          </div>
           {/* <div className={headerContent}>
             <h2 className={contenth2}>
               AUTHOR & <br /> PUBLIC SPEAKER
@@ -64,8 +69,8 @@ const DesktopHeader = () => {
             </a>
           </div>
         </div> */}
-      </div>
-      {/* <div className={headerImageContainer}>
+        </div>
+        {/* <div className={headerImageContainer}>
         <img
           src="/assets/herman-header-image.jpg"
           alt="Herman Taylor"
