@@ -15,6 +15,13 @@
         background-size: 27% 84%;
         border-bottom: 7px solid #412180;
     }
+    .headerImgBack{
+        background-image: url("../../images/mobile-header-images/mobile-header-image.jpg");
+        background-size: cover;
+    }
+    .gradient{
+        background-image: url("../../images/mobile-header-images/purple-gradient.png");
+    }
 }
 
 @media screen and (min-width: 600px) {}
