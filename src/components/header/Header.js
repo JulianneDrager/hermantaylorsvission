@@ -5,7 +5,8 @@ import Article from "./Article";
 import Interview from "./Interview";
 
 const DesktopHeader = () => {
-  const ColorWhite = { color: "white" };
+  const bkColor = { backgroundColor: "pink" };
+  const bkColor2 = { backgroundColor: "red" };
   const headerImgBack = HeaderStyle.headerImgBack;
   const gradient = HeaderStyle.gradient;
   const headContainer = HeaderStyle.headContainer;
@@ -35,14 +36,14 @@ const DesktopHeader = () => {
           <div className={headerImgBack}>
             <div className={gradient}>
               <Row>
-                <Col style={ColorWhite}>1</Col>
-                <Col style={ColorWhite}>
+                <Col style={bkColor}>1</Col>
+                <Col style={bkColor2}>
                   2{" "}
                   <div className={headerLinksCon}>
-                    <a href="">
+                    <a href="/">
                       <img src="assets/facebook-icon.png" alt="Facebook Icon" />
                     </a>
-                    <a href="">
+                    <a href="/">
                       <img
                         src="/assets/instagram-icon.png"
                         alt="Instagram Icon"
