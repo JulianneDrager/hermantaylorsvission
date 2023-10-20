@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import HeaderStyle from "./Header.module.css";
 import Facebook from "../../images/header-images/facebook-icon.png"
 import Instagram from "../../images/header-images/instagram-icon.png"
@@ -17,6 +17,11 @@ const DesktopHeader = () => {
   const gradient = HeaderStyle.gradient;
   const SocialBtnSize = HeaderStyle.SocialBtnSize;
   const headerRow = HeaderStyle.headerRow
+  const headerContent = HeaderStyle.headerContent;
+  const contentH2 = HeaderStyle.contentH2;
+  const headerBtn = HeaderStyle.headerBtn;
+
+
   const headContainer = HeaderStyle.headContainer;
   const headerImageContainer = HeaderStyle.headerImageContainer;
   const headerImage = HeaderStyle.headerImage;
@@ -24,11 +29,9 @@ const DesktopHeader = () => {
   const headSection1 = HeaderStyle.headSection1;
   const headerTitleContainer = HeaderStyle.headerTitleContainer;
   const headerTitle = HeaderStyle.headerTitle;
-  const headerContent = HeaderStyle.headerContent;
-  const headerBtn = HeaderStyle.headerBtn;
   const headerBtnContainer = HeaderStyle.headerBtnContainer;
   const headerLinksCon = HeaderStyle.headerLinksCon;
-  const contenth2 = HeaderStyle.contenth2;
+  
   return (
     <header>
       <div className={headContainer}>
@@ -70,7 +73,7 @@ const DesktopHeader = () => {
                 <Col style={bkColor4}>
                   4
                 <div className={headerContent}>
-            <h2 className={contenth2}>
+            <h2 className={contentH2}>
               AUTHOR & <br /> PUBLIC SPEAKER
             </h2>
             </div>
@@ -78,7 +81,7 @@ const DesktopHeader = () => {
                 <Col style={bkColor5}>
                   5
                 <div className={headerBtnContainer}>
-                <button className={headerBtn}>BOOK NOW</button>
+                <Button className={headerBtn}>PURCHASE NOW</Button>
               </div>
                 </Col>
               </Row>
