@@ -64,18 +64,22 @@ const DesktopHeader = () => {
               </Row>
               <Row>
                 <Col>3</Col>
-                <Col>4</Col>
-                <Col>5</Col>
-              </Row>
-            </div>
-          </div>
-          {/* <div className={headerContent}>
+                <Col>
+                <div className={headerContent}>
             <h2 className={contenth2}>
               AUTHOR & <br /> PUBLIC SPEAKER
             </h2>
-          <div className={headerBtnContainer}>
-            <button className={headerBtn}>BOOK NOW</button>
+            </div>
+                </Col>
+                <Col>
+                <div className={headerBtnContainer}>
+                <button className={headerBtn}>BOOK NOW</button>
+              </div>
+                </Col>
+              </Row>
+            </div>
           </div>
+          {/* 
           <div className={headerLinksCon}>
             <a href="">
               <img src="assets/facebook-icon.png" alt="Facebook Icon" />
