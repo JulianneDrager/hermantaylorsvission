@@ -20,6 +20,7 @@ const DesktopHeader = () => {
   const headerContent = HeaderStyle.headerContent;
   const contentH2 = HeaderStyle.contentH2;
   const headerBtn = HeaderStyle.headerBtn;
+  const headerBtnContainer = HeaderStyle.headerBtnContainer;
 
 
   const headContainer = HeaderStyle.headContainer;
@@ -29,7 +30,6 @@ const DesktopHeader = () => {
   const headSection1 = HeaderStyle.headSection1;
   const headerTitleContainer = HeaderStyle.headerTitleContainer;
   const headerTitle = HeaderStyle.headerTitle;
-  const headerBtnContainer = HeaderStyle.headerBtnContainer;
   const headerLinksCon = HeaderStyle.headerLinksCon;
   
   return (
