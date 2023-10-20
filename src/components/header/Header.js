@@ -9,6 +9,9 @@ import Interview from "./Interview";
 
 const DesktopHeader = () => {
   const bkColor = { backgroundColor: "pink" };
+  const bkColor3 = { backgroundColor: "blue" };
+  const bkColor4 = { backgroundColor: "purple" };
+  const bkColor5 = { backgroundColor: "gray" };
   const socialMediaCol = HeaderStyle.socialMediaCol;
   const headerImgBack = HeaderStyle.headerImgBack;
   const gradient = HeaderStyle.gradient;
@@ -63,15 +66,17 @@ const DesktopHeader = () => {
                 </Col>
               </Row>
               <Row>
-                <Col>3</Col>
-                <Col>
+                <Col style={bkColor3}>3</Col>
+                <Col style={bkColor4}>
+                  4
                 <div className={headerContent}>
             <h2 className={contenth2}>
               AUTHOR & <br /> PUBLIC SPEAKER
             </h2>
             </div>
                 </Col>
-                <Col>
+                <Col style={bkColor5}>
+                  5
                 <div className={headerBtnContainer}>
                 <button className={headerBtn}>BOOK NOW</button>
               </div>
