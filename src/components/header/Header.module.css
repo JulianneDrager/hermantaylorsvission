@@ -21,6 +21,26 @@
     }
     .gradient{
         background-image: url("../../images/mobile-header-images/purple-gradient.png");
+        background-size: cover;
+    }
+    .headerRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .SocialBtnSize{
+        width: 46%;
+        padding: .12em;
+    }
+    .headerLinksCon{
+        padding: .5em;
+    }
+    .socialMediaCol{
+        width: 7rem;
+        background-color: #BD742C;
+       
+        
+
     }
 }
 
