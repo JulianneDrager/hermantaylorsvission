@@ -92,8 +92,22 @@
   /* .fireBottom{
     background-size: 117% 146%;
   } */
-
 }
+
+@media screen and (min-width: 450px) {
+    .contentH2{
+        font-size: 2.4rem;
+    }
+    .headerImgBack{
+        background-position: center -85%;
+    }
+    .headerBtn{
+        padding: 1.5em 2em;
+        font-size: 1.4rem;
+    }
+}
+
+
 
 @media screen and (min-width: 600px) {
     .contentH2{
