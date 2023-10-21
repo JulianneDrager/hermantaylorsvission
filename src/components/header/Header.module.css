@@ -86,6 +86,12 @@
   .SocialBtnSize{
     width: 44%;
   }
+  .socialMediaCol{
+    width: 9rem;
+  }
+  .fireBottom{
+    background-size: 117% 146%;
+  }
 
 }
 
