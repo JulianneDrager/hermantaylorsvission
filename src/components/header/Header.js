@@ -8,10 +8,10 @@ import Article from "./Article";
 import Interview from "./Interview";
 
 const DesktopHeader = () => {
-  const bkColor = { backgroundColor: "pink" };
-  const bkColor3 = { backgroundColor: "blue" };
-  const bkColor4 = { backgroundColor: "purple" };
-  const bkColor5 = { backgroundColor: "gray" };
+  const bkColor = { color: "transparent" };
+  const bkColor3 = {color: "transparent" };
+  const bkColor4 = { color: "transparent" };
+  const bkColor5 = { color: "transparent" };
   const socialMediaCol = HeaderStyle.socialMediaCol;
   const headerImgBack = HeaderStyle.headerImgBack;
   const gradient = HeaderStyle.gradient;
