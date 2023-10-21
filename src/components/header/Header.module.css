@@ -109,7 +109,9 @@
     .headerTitle{
         width: 64%;
     }
-    
+    .headerTitleContainer{
+        background-size: 21% 76%;
+    }
 }
 
 @media screen and (min-width: 765px) {}
