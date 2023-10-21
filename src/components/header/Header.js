@@ -21,6 +21,7 @@ const DesktopHeader = () => {
   const contentH2 = HeaderStyle.contentH2;
   const headerBtn = HeaderStyle.headerBtn;
   const headerBtnContainer = HeaderStyle.headerBtnContainer;
+  const fireBottom = HeaderStyle.fireBottom;
 
 
   const headContainer = HeaderStyle.headContainer;
@@ -87,30 +88,12 @@ const DesktopHeader = () => {
               </Row>
             </div>
           </div>
-          {/* 
-          <div className={headerLinksCon}>
-            <a href="">
-              <img src="assets/facebook-icon.png" alt="Facebook Icon" />
-            </a>
-            <a href="">
-              <img src="/assets/instagram-icon.png" alt="Instagram Icon" />
-            </a>
-          </div>
-        </div> */}
+        
         </div>
-        {/* <div className={headerImageContainer}>
-        <img
-          src="/assets/herman-header-image.jpg"
-          alt="Herman Taylor"
-          className={headerImage}
-        />
-        <img
-          src="/assets/header-bottom-corner.png"
-          alt="Herman Taylor"
-          className={bottmBackground}
-        />
-      </div> */}
+        
       </div>
+      <div className={fireBottom} ></div>
+      <div  ></div>
       {/* <Article />
       <Interview /> */}
     </header>
