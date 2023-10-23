@@ -1,30 +1,147 @@
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 /* mobile viewport @320px and lower */
+.headerTitle {
+    width: 87%;
+    padding: 0.8rem 0 0 0.5rem;
+}
+
+.headerTitleContainer{
+    text-align: center;
+    background-image: url("../../images/mobile-header-images/mobile-header-left-top-corner.png");
+    background-repeat: no-repeat;
+    background-size: 27% 84%;
+    border-bottom: 7px solid #412180;
+}
+
+.headerImgBack{
+    background-image: url("../../images/mobile-header-images/mobile-header-image.jpg");
+    background-size: cover;
+}
+
+.gradient{
+    background-image: url("../../images/mobile-header-images/purple-gradient.png");
+    background-size: cover;
+}
+
+.headerRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerLinksCon{
+    padding: .5rem;
+}
+
+.socialBtnSize{
+    width: 46%;
+    padding: .1rem;
+}
+
+.socialMediaCol{
+    width: 7rem;
+}
+
+.contentH2{
+    color: white;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    text-align: center;
+    text-shadow: 1px 3px 10px black;
+    margin: 9rem 0 0 0;
+}
+
+.headerBtn{
+    background-color: #3b1c48;
+    border: 3px solid #d5b789;
+    border-radius: .3rem;
+    padding: 1rem 1.2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 5;
+    margin: 0 0 2rem 0;
+}
+
+.headerBtnContainer{
+    text-align: center;
+}
+
+.fireBottom{
+    background-image: url("../../images/mobile-header-images/mobile-header-fire-bottom.png");
+    background-repeat: no-repeat;
+    height: 12.9rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    top: -12.95rem;
+    
+}
 
 @media screen and (min-width: 370px) {
-    .headerTitle{
-        width: 87%;
-        padding: 0.3em 0 0 0.3em;
+    .contentH2{
+        margin: 13rem 0 0 0;
     }
 
-    .headerTitleContainer{
-        text-align: center;
-        background-image: url("../../images/mobile-header-images/mobile-header-left-top-corner.png");
-        background-repeat: no-repeat;
-        background-size: 27% 84%;
-        border-bottom: 7px solid #412180;
+    .headerBtn{
+        margin: 0 0 3rem 0;
     }
-    .headerImgBack{
-        background-image: url("../../images/mobile-header-images/mobile-header-image.jpg");
-        background-size: cover;
+
+    .headerTitle{
+        width: 81%;
     }
-    .gradient{
-        background-image: url("../../images/mobile-header-images/purple-gradient.png");
+
+    .socialBtnSize{
+        width: 44%;
+    }
+
+    .socialMediaCol{
+        width: 9rem;
     }
 }
 
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 450px) {
+    .headerImgBack{
+        background-position: center -85px;
+    } 
+    .contentH2{
+        font-size: 2.4rem;
+    }
+    .headerBtn{
+        font-size: 1.4rem;
+        padding: 1.5rem 2rem;
+    }
+   
+}
+
+@media screen and (min-width: 600px) {
+    .contentH2{
+        font-size: 2.8rem;
+    }
+
+    .headerBtn{
+        padding: 1.3rem 2.5rem;
+    }
+
+    .headerImgBack{
+        background-position: center -139px;
+    }
+
+    .headerTitle{
+        width: 64%;
+    }
+
+    .headerTitleContainer{
+        background-size: 21% 76%;
+    }
+
+    .fireBottom{
+        background-position: center -100px;
+    }
+}
 
 @media screen and (min-width: 765px) {}
 
