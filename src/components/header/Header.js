@@ -26,6 +26,7 @@ const DesktopHeader = () => {
   const bookTitleCon = HeaderStyle.bookTitleCon
   const bookTitle = HeaderStyle.bookTitle
   const colBookTitle = HeaderStyle.colBookTitle
+  const rightFireBottom = HeaderStyle.rightFireBottom
 
 
   const headContainer = HeaderStyle.headContainer;
@@ -100,8 +101,8 @@ const DesktopHeader = () => {
       </div>
       <div className={fireBottom} ></div>
     </header>
-    <section className={bookTitleCon}>
-        <Row >
+    <section >
+        <Row className={bookTitleCon} >
           <Col className={colBookTitle}>1</Col>
           <Col>
             2
@@ -109,6 +110,7 @@ const DesktopHeader = () => {
           </Col>
           <Col className={colBookTitle}>3</Col>
         </Row>
+        <div className={rightFireBottom} ></div>
     </section>
     </>
   );

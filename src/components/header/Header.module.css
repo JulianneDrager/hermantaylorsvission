@@ -83,6 +83,14 @@
 .colBookTitle{
     padding: 3em;
 }
+.rightFireBottom{
+    background-image: url("../../images/mobile-comming-soon-images/mobile-fire-right-side.png");
+    position: relative;
+    height: 7rem;
+    top:-20rem;
+    right: -7rem;
+
+}
 
 /* mobile viewport @320px and lower */
 
