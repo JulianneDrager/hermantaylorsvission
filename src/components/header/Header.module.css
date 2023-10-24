@@ -118,6 +118,11 @@
     background-size: 117% 146%;
   } */
 }
+@media screen and (min-width: 400px){
+    .rightFireBottom{
+        right:-9rem ;
+    }
+}
 
 @media screen and (min-width: 450px) {
     .contentH2{
@@ -129,6 +134,9 @@
     .headerBtn{
         padding: 1.5em 2em;
         font-size: 1.4rem;
+    }
+    .rightFireBottom{
+        right:-11rem ;
     }
 }
 
