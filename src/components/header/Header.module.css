@@ -6,6 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 .headerTitle{
@@ -99,7 +100,7 @@
     position: relative;
     height: 13rem;
     top: -6.5rem;
-    right: -2rem;
+    right: -4rem;
     margin-bottom: -6.5em;
 }
 .bookCoverCon{
@@ -114,6 +115,11 @@
 }
 
 /* mobile viewport @320px and lower */
+/* @media screen and (min-width: 330px) {
+    .fireBottom{
+        right: -8rem;
+    }
+} */
 
 @media screen and (min-width: 370px) {
   .contentH2{
@@ -131,6 +137,9 @@
   .socialMediaCol{
     width: 9rem;
   }
+  .rightFireBottom{
+    right:-6rem ;
+}
   /* .fireBottom{
     background-size: 117% 146%;
   } */
@@ -185,6 +194,11 @@
 @media screen and (min-width: 790px) {
     .rightFireBottom{
         right: -34rem;
+    }
+}
+@media screen and (min-width: 860px) {
+    .rightFireBottom{
+        right: -37rem;
     }
 }
 
