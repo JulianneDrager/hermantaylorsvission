@@ -5,6 +5,7 @@ import Facebook from "../../images/header-images/facebook-icon.png"
 import Instagram from "../../images/header-images/instagram-icon.png"
 import HeaderTitle from "../../images/header-images/header-title.png"
 import BookTitle from "../../images/mobile-comming-soon-images/mobile-coming-soon-title.png"
+import BookCover from "../../images/mobile-comming-soon-images/mobile-book-vover-with-fire--bottom.png"
 import Article from "./Article";
 import Interview from "./Interview";
 
@@ -27,6 +28,8 @@ const DesktopHeader = () => {
   const bookTitle = HeaderStyle.bookTitle
   const colBookTitle = HeaderStyle.colBookTitle
   const rightFireBottom = HeaderStyle.rightFireBottom
+  const bookCoverCon = HeaderStyle.bookCoverCon
+  const bookCover = HeaderStyle.bookCover
 
 
   const headContainer = HeaderStyle.headContainer;
@@ -111,6 +114,13 @@ const DesktopHeader = () => {
           <Col className={colBookTitle}>3</Col>
         </Row>
         <div className={rightFireBottom} ></div>
+        <div className={bookCoverCon}>
+          <img src={BookCover} alt="Book Cover" className={bookCover}/>
+          <div>
+            <h1>PURCHASE YOUR COPY</h1>
+            <div><Button>CLICK TO ORDER FROM AMAZON</Button></div>
+          </div>
+        </div>
     </section>
     </>
   );
