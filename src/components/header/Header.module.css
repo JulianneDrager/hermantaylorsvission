@@ -72,6 +72,9 @@
 }
 .bookTitleCon{
     background: url("../../images/mobile-comming-soon-images/purple-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-top: 0;
     position: relative;
     top: -13rem;
@@ -85,6 +88,7 @@
 }
 .rightFireBottom{
     background-image: url("../../images/mobile-comming-soon-images/mobile-fire-right-side.png");
+    background-repeat: no-repeat;
     position: relative;
     height: 7rem;
     top:-20rem;
@@ -146,6 +150,9 @@
     }
     .headerTitleContainer{
         background-size: 21% 76%;
+    }
+    .rightFireBottom{
+        right: -30rem;
     }
 }
 
