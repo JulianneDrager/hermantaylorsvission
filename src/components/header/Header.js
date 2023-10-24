@@ -4,6 +4,7 @@ import HeaderStyle from "./Header.module.css";
 import Facebook from "../../images/header-images/facebook-icon.png"
 import Instagram from "../../images/header-images/instagram-icon.png"
 import HeaderTitle from "../../images/header-images/header-title.png"
+import BookTitle from "../../images/mobile-comming-soon-images/mobile-coming-soon-title.png"
 import Article from "./Article";
 import Interview from "./Interview";
 
@@ -22,6 +23,9 @@ const DesktopHeader = () => {
   const headerBtn = HeaderStyle.headerBtn;
   const headerBtnContainer = HeaderStyle.headerBtnContainer;
   const fireBottom = HeaderStyle.fireBottom;
+  const bookTitleCon = HeaderStyle.bookTitleCon
+  const bookTitle = HeaderStyle.bookTitle
+  const colBookTitle = HeaderStyle.colBookTitle
 
 
   const headContainer = HeaderStyle.headContainer;
@@ -32,8 +36,10 @@ const DesktopHeader = () => {
   const headerTitleContainer = HeaderStyle.headerTitleContainer;
   const headerTitle = HeaderStyle.headerTitle;
   const headerLinksCon = HeaderStyle.headerLinksCon;
+ 
   
   return (
+    <>
     <header>
       <div className={headContainer}>
         <div className={headSection1}>
@@ -93,10 +99,18 @@ const DesktopHeader = () => {
         
       </div>
       <div className={fireBottom} ></div>
-      <div  ></div>
-      {/* <Article />
-      <Interview /> */}
     </header>
+    <section className={bookTitleCon}>
+        <Row >
+          <Col className={colBookTitle}>1</Col>
+          <Col>
+            2
+            <img src={BookTitle} alt="Book Title" className={bookTitle} />
+          </Col>
+          <Col className={colBookTitle}>3</Col>
+        </Row>
+    </section>
+    </>
   );
 };
 

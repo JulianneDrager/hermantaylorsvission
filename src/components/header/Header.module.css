@@ -70,6 +70,19 @@
     z-index: 2;
     top: -12.95rem;
 }
+.bookTitleCon{
+    background: url("../../images/mobile-comming-soon-images/purple-background.jpg");
+    margin-top: 0;
+    position: relative;
+    top: -13rem;
+}
+
+.bookTitle{
+    width: 100%;
+}
+.colBookTitle{
+    padding: 3em;
+}
 
 /* mobile viewport @320px and lower */
 
