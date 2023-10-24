@@ -98,9 +98,9 @@
     background-repeat: no-repeat;
     position: relative;
     height: 13rem;
-    top: -6rem;
+    top: -6.5rem;
     right: -2rem;
-    margin-bottom: -6em;
+    margin-bottom: -6.5em;
 }
 .bookCoverCon{
     display: flex;
