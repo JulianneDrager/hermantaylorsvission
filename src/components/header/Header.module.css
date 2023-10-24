@@ -100,8 +100,9 @@
     position: relative;
     height: 13rem;
     top: -6.5rem;
-    right: -4rem;
+    right: -2rem;
     margin-bottom: -6.5em;
+    overflow:hidden;
 }
 .bookCoverCon{
     display: flex;
@@ -111,7 +112,13 @@
     width: 90%;
 }
 .bookCover{
-    width: 60%;
+    width: 80%;
+}
+.purchaseAlertCon{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
 }
 
 /* mobile viewport @320px and lower */

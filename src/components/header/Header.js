@@ -30,6 +30,7 @@ const DesktopHeader = () => {
   const rightFireBottom = HeaderStyle.rightFireBottom
   const bookCoverCon = HeaderStyle.bookCoverCon
   const bookCover = HeaderStyle.bookCover
+  const purchaseAlertCon = HeaderStyle.purchaseAlertCon
 
 
   const headContainer = HeaderStyle.headContainer;
@@ -116,7 +117,7 @@ const DesktopHeader = () => {
         <div className={rightFireBottom} ></div>
         <div className={bookCoverCon}>
           <img src={BookCover} alt="Book Cover" className={bookCover}/>
-          <div>
+          <div className={purchaseAlertCon}>
             <h1>PURCHASE YOUR COPY</h1>
             <div><Button>CLICK TO ORDER FROM AMAZON</Button></div>
           </div>
