@@ -8,8 +8,11 @@ import BookTitle from "../../images/mobile-comming-soon-images/mobile-coming-soo
 import BookCover from "../../images/mobile-comming-soon-images/mobile-book-vover-with-fire--bottom.png"
 import Article from "./Article";
 import Interview from "./Interview";
+import DesktopHeader from "./DesktopHeader";
 
-const DesktopHeader = () => {
+const Header = () => {
+  const matchesLg = useMediaQuery("(max-width: 765px)");
+
   const bkColor = { color: "transparent" };
   const bkColor3 = {color: "transparent" };
   const bkColor4 = { color: "transparent" };
@@ -127,4 +130,4 @@ const DesktopHeader = () => {
   );
 };
 
-export default DesktopHeader;
+export default Header;

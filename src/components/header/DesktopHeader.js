@@ -7,7 +7,7 @@ const DesktopHeader = () => {
     const headContainer = DesktopHeaderStyle.headContainer
     const headerImageContainer = DesktopHeaderStyle.headerImageContainer
     const headerImage = DesktopHeaderStyle.headerImage
-    const bottmBackground = HeaderStyle.bottmBackground
+    const bottmBackground = DesktopHeaderStyle.bottmBackground
     const headSection1 = DesktopHeaderStyle.headSection1
     const headerTitleContainer = DesktopHeaderStyle.headerTitleContainer
     const headerTitle = DesktopHeaderStyle.headerTitle
