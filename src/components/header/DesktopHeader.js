@@ -1,21 +1,21 @@
 import React from 'react'
-import HeaderStyle from "./Header.module.css";
+import DesktopHeaderStyle from "./desktopHeader.module.css";
 import Article from './Article';
 import Interview from './Interview';
 
 const DesktopHeader = () => {
-    const headContainer = HeaderStyle.headContainer
-    const headerImageContainer = HeaderStyle.headerImageContainer
-    const headerImage = HeaderStyle.headerImage
+    const headContainer = DesktopHeaderStyle.headContainer
+    const headerImageContainer = DesktopHeaderStyle.headerImageContainer
+    const headerImage = DesktopHeaderStyle.headerImage
     const bottmBackground = HeaderStyle.bottmBackground
-    const headSection1 = HeaderStyle.headSection1
-    const headerTitleContainer = HeaderStyle.headerTitleContainer
-    const headerTitle = HeaderStyle.headerTitle
-    const headerContent = HeaderStyle.headerContent
-    const headerBtn = HeaderStyle.headerBtn
-    const headerBtnContainer = HeaderStyle.headerBtnContainer
-    const headerLinksCon = HeaderStyle.headerLinksCon
-    const contenth2 = HeaderStyle.contenth2
+    const headSection1 = DesktopHeaderStyle.headSection1
+    const headerTitleContainer = DesktopHeaderStyle.headerTitleContainer
+    const headerTitle = DesktopHeaderStyle.headerTitle
+    const headerContent = DesktopHeaderStyle.headerContent
+    const headerBtn = DesktopHeaderStyle.headerBtn
+    const headerBtnContainer = DesktopHeaderStyle.headerBtnContainer
+    const headerLinksCon = DesktopHeaderStyle.headerLinksCon
+    const contenth2 = DesktopHeaderStyle.contenth2
     return (
     <header>
         <div className={headContainer}>
