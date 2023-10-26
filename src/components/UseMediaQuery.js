@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function useMediaQuery(
+function UseMediaQuery(
   query,
   defaultMatches = window.matchMedia(query).matches
 ) {
@@ -19,4 +19,4 @@ function useMediaQuery(
   return matches;
 }
 
-export default useMediaQuery;
+export default UseMediaQuery;

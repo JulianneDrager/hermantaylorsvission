@@ -9,9 +9,10 @@ import BookCover from "../../images/mobile-comming-soon-images/mobile-book-vover
 import Article from "./Article";
 import Interview from "./Interview";
 import DesktopHeader from "./DesktopHeader";
+import UseMediaQuery from "../UseMediaQuery"
 
 const Header = () => {
-  const matchesLg = useMediaQuery("(max-width: 765px)");
+  const matchesLg = UseMediaQuery("(max-width: 765px)");
 
   const bkColor = { color: "transparent" };
   const bkColor3 = {color: "transparent" };
@@ -47,6 +48,8 @@ const Header = () => {
  
   
   return (
+    <>
+    {matchesLg && (
     <>
     <header>
       <div className={headContainer}>
@@ -126,6 +129,10 @@ const Header = () => {
           </div>
         </div>
     </section>
+    </>
+    )
+}
+{!matchesLg && <DesktopHeader />}
     </>
   );
 };
