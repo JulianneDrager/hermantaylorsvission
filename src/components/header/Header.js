@@ -12,7 +12,7 @@ import DesktopHeader from "./DesktopHeader";
 import UseMediaQuery from "../UseMediaQuery"
 
 const Header = () => {
-  const matchesLg = UseMediaQuery("(max-width: 765px)");
+  const matchesLg = UseMediaQuery("(max-width: 860px)");
 
   const bkColor = { color: "transparent" };
   const bkColor3 = {color: "transparent" };
