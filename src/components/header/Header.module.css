@@ -140,6 +140,8 @@
     padding: .5em 2em;
     background-color: #BD742C;
     width: 100%;
+    position: relative;
+    right: 1rem;
 }
 .clickBtn{
     width: fit-content;
@@ -150,6 +152,7 @@
     border: 1px solid #AE8A56;
     border-radius: .3rem;
     color: #ffffff;
+    
 }
 
 /* mobile viewport @320px and lower */
