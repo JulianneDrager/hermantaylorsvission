@@ -110,12 +110,12 @@ const Header = () => {
           </header>
           <section>
             <Row className={bookTitleCon}>
-              <Col className={colBookTitle}>1</Col>
+              <Col className={colBookTitle}></Col>
               <Col>
-                2
+                
                 <img src={BookTitle} alt="Book Title" className={bookTitle} />
               </Col>
-              <Col className={colBookTitle}>3</Col>
+              <Col className={colBookTitle}></Col>
             </Row>
             <div className={rightFireBottom}></div>
             <div className={bookCoverCon}>

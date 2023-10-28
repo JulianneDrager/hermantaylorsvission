@@ -92,7 +92,7 @@
     width: 100%;
 }
 .colBookTitle{
-    padding: 1em;
+    padding: 3em 0;
 }
 .rightFireBottom{
     background-image: url("../../images/mobile-comming-soon-images/mobile-fire-right-side.png");
@@ -110,10 +110,7 @@
     justify-content: center;
     color: #ffffff;
     width: 90%;
-    /* position: relative;
-    top: -2rem;
-    margin-bottom: -4em;
-    */
+    position: relative;
 }
 .bookCover{
     width: 100%;
@@ -233,9 +230,28 @@
     .rightFireBottom{
         right: -30rem;
     }
+    .bookCover{
+        top: -9.5rem;
+        margin-bottom: -9em;
+    }
+    .headerBtnContainer{
+        padding: 0 ;
+    }
+    .contentH2{
+        margin: 7.5em 0 0 0;
+    }
 }
 
-@media screen and (min-width: 765px) {}
+@media screen and (min-width: 765px) {
+    .bookCover{
+        top: -10.5rem;
+        margin-bottom: -10em;
+    }
+
+    .contentH2{
+        margin: 11.5em 0 0 0;
+    }
+}
 @media screen and (min-width: 790px) {
     .rightFireBottom{
         right: -34rem;
