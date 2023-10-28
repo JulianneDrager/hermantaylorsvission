@@ -8,20 +8,20 @@
 
 .leftCorner{
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
-    width: 60%;
-    height: 200vh;
+    /* width: 60%; */
+    /* height: 200vh; */
      z-index: -1;
      transform: rotate(180deg);
      
 }
 .rightCorner{
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
-    width: 50%;
-    height: 200vh;
+    /* width: 50%; */
+    /* height: 200vh; */
     z-index: -1;
      transform: rotate(180deg);
 }
@@ -38,16 +38,16 @@ gap: 2rem;
 color: #ffffff;
 padding: 4em ;
 width: 100%;
-font-size: 1.5rem;
+font-size: 1.15rem;
 text-align: center;
 
 }
 .interviewDisplay{
-    width: 80%;
-    height: 65vh;
+    width: 85%;
+    height: 30vh;
     background-color: #391F44;
 }
-.mailCon{
+/* .mailCon{
     margin-top: 6em;
     font-size: 1.5rem;
     display: flex;
@@ -67,4 +67,4 @@ text-align: center;
 }
 .footerDesktop{
     margin-top: 3em;
-}
+} */
