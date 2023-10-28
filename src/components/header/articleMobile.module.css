@@ -1,0 +1,44 @@
+.bookQuoteWrapMobile{
+    display: grid;
+    place-items: center;
+    font-size: .79rem;
+    line-height: 1.2rem;
+
+    /* margin-left: 36em; */
+    /* position: relative; */
+    /* top: -1rem; */
+    /* right: 7rem; */
+    
+    
+}
+.quoteConMobile{
+    position: relative;
+    padding: 2em 0 2em 1em;
+    color: #ffffff;
+    
+}
+.quoteMarkUpMobile{
+    position: absolute;
+    top: -.2rem;
+    left: -.2rem;
+    width: 15%;
+}
+.quoteMarkDownMobile{
+    position: absolute;
+    bottom: 1rem;
+    right: -.2rem;
+    transform: rotate(180deg);
+     width: 15%;
+}
+.orderBtnMobile{
+    padding: 1em;
+    background-color: #391F44;
+    border: 2px solid #AA9389;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 3em;
+
+}

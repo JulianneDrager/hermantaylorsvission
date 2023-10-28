@@ -10,6 +10,7 @@ import Article from "./Article";
 import Interview from "./Interview";
 import DesktopHeader from "./DesktopHeader";
 import UseMediaQuery from "../UseMediaQuery";
+import ArticleMobile from "./ArticleMobile";
 
 const Header = () => {
   const matchesLg = UseMediaQuery("(max-width: 860px)");
@@ -130,6 +131,7 @@ const Header = () => {
               </div>
             </div>
           </section>
+          <ArticleMobile/>
         </>
       )}
       {!matchesLg && <DesktopHeader />}
