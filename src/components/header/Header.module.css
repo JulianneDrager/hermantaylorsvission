@@ -181,6 +181,10 @@
   .rightFireBottom{
     right:-6rem ;
 }
+.bookCover{
+    top: -8.5rem;
+    /* margin-bottom: -8em; */
+}
   /* .fireBottom{
     background-size: 117% 146%;
   } */
