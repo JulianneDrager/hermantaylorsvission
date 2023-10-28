@@ -20,7 +20,7 @@ const DesktopHeader = () => {
     <header>
       <div className={headContainer}>
         <div className={headSection1}>
-          {/* <h1>Herman Taylor</h1> */}
+      
           <div className={headerTitleContainer}>
             <img
               className={headerTitle}

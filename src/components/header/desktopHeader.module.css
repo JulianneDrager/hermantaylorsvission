@@ -9,9 +9,9 @@
 .headContainer{
     width: 100%;
     display: flex;
-    position: relative;
+    /* position: relative; */
     /* justify-content: center; */
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
 }
 .headSection1{
@@ -61,11 +61,11 @@
 }
 .headerImageContainer{
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .headerImage{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .bottmBackground{
