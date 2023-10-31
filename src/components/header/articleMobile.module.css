@@ -37,8 +37,9 @@
     border-radius: .5rem;
     color: #ffffff;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .9rem;
     cursor: pointer;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    width: 66% ;
 
 }
