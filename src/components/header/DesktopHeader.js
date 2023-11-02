@@ -1,7 +1,7 @@
 import React from "react";
 import DesktopHeaderStyle from "./desktopHeader.module.css";
 import Article from "./Article";
-import Interview from "./Interview";
+// import Interview from "./Interview";
 
 const DesktopHeader = () => {
   const headContainer = DesktopHeaderStyle.headContainer;
@@ -59,7 +59,7 @@ const DesktopHeader = () => {
         </div>
       </div>
       <Article />
-      <Interview />
+      {/* <Interview /> */}
     </header>
   );
 };
