@@ -7,7 +7,7 @@
 }
 .navDesktop{
     background-color: purple;
-    color: goldenrod;
+    
 }
 .navListDesktop{
     display: flex;
@@ -18,6 +18,11 @@
 }
 .navListDesktop li{
     cursor: pointer;
+}
+
+.linkDesktop{
+    text-decoration: none;
+    color: goldenrod;
 }
 
 .headContainer{
