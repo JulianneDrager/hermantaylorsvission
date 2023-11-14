@@ -17,19 +17,10 @@ const DesktopHeader = () => {
   const headerBtnContainer = DesktopHeaderStyle.headerBtnContainer;
   const headerLinksCon = DesktopHeaderStyle.headerLinksCon;
   const contenth2 = DesktopHeaderStyle.contenth2;
-  const navDesktop = DesktopHeaderStyle.navDesktop
-  const linkDesktop = DesktopHeaderStyle.linkDesktop
-  const navListDesktop = DesktopHeaderStyle.navListDesktop
+  
   return (
     <header>
-      <nav className={navDesktop}>
-              <ul className = {navListDesktop}>
-                <li><Link className={linkDesktop} to="/">Home</Link></li>
-                <li><Link className={linkDesktop} to="/interview">Interview</Link></li>
-                <li><Link className={linkDesktop} to="/article">Article</Link></li>
-                <li><Link className={linkDesktop} to="/contact">Contact</Link></li>
-              </ul>
-        </nav>
+
       <div className={headContainer}>
         <div className={headSection1}>
       
