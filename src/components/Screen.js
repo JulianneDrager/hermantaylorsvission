@@ -2,6 +2,7 @@ import React from 'react'
 import Header from "./header/Header"
 import Contact from './contact/Contact'
 import InterviewMobile from './interview/InterviewMobile'
+import ArticleMobile from './header/ArticleMobile'
 
 
 const Screen = () => {
@@ -9,6 +10,7 @@ const Screen = () => {
     <div>
         <Header/>
         <InterviewMobile/>
+        <ArticleMobile/>
         <Contact/>
     </div>
   )

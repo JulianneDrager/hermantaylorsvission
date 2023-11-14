@@ -4,13 +4,13 @@ import HeaderStyle from "./Header.module.css";
 import Facebook from "../../images/header-images/facebook-icon.png";
 import Instagram from "../../images/header-images/instagram-icon.png";
 import HeaderTitle from "../../images/header-images/header-title.png";
-import BookTitle from "../../images/mobile-comming-soon-images/mobile-coming-soon-title.png";
-import BookCover from "../../images/mobile-comming-soon-images/mobile-book-vover-with-fire--bottom.png";
+// import BookTitle from "../../images/mobile-comming-soon-images/mobile-coming-soon-title.png";
+// import BookCover from "../../images/mobile-comming-soon-images/mobile-book-vover-with-fire--bottom.png";
 // import Article from "./Article";
 // import Interview from "./Interview";
 import DesktopHeader from "./DesktopHeader";
 import UseMediaQuery from "../UseMediaQuery";
-import ArticleMobile from "./ArticleMobile";
+// import ArticleMobile from "./ArticleMobile";
 
 const Header = () => {
   const matchesLg = UseMediaQuery("(max-width: 860px)");
@@ -29,15 +29,15 @@ const Header = () => {
   const headerBtn = HeaderStyle.headerBtn;
   const headerBtnContainer = HeaderStyle.headerBtnContainer;
   const fireBottom = HeaderStyle.fireBottom;
-  const bookTitleCon = HeaderStyle.bookTitleCon;
-  const bookTitle = HeaderStyle.bookTitle;
-  const colBookTitle = HeaderStyle.colBookTitle;
-  const rightFireBottom = HeaderStyle.rightFireBottom;
-  const bookCoverCon = HeaderStyle.bookCoverCon;
-  const bookCover = HeaderStyle.bookCover;
-  const purchaseAlertCon = HeaderStyle.purchaseAlertCon;
-  const clickBtnCon = HeaderStyle.clickBtnCon;
-  const clickBtn = HeaderStyle.clickBtn;
+  // const bookTitleCon = HeaderStyle.bookTitleCon;
+  // const bookTitle = HeaderStyle.bookTitle;
+  // const colBookTitle = HeaderStyle.colBookTitle;
+  // const rightFireBottom = HeaderStyle.rightFireBottom;
+  // const bookCoverCon = HeaderStyle.bookCoverCon;
+  // const bookCover = HeaderStyle.bookCover;
+  // const purchaseAlertCon = HeaderStyle.purchaseAlertCon;
+  // const clickBtnCon = HeaderStyle.clickBtnCon;
+  // const clickBtn = HeaderStyle.clickBtn;
 
   const headContainer = HeaderStyle.headContainer;
   const headerImageContainer = HeaderStyle.headerImageContainer;
@@ -53,6 +53,14 @@ const Header = () => {
       {matchesLg && (
         <>
           <header>
+            <nav>
+              <ul>
+                <li>Home</li>
+                <li>Interview</li>
+                <li>Article</li>
+                <li>Contact</li>
+              </ul>
+            </nav>
             <div className={headContainer}>
               <div className={headSection1}>
                 <div className={headerTitleContainer}>
@@ -109,29 +117,7 @@ const Header = () => {
             </div>
             <div className={fireBottom}></div>
           </header>
-          <section>
-            <Row className={bookTitleCon}>
-              <Col className={colBookTitle}></Col>
-              <Col>
-                
-                <img src={BookTitle} alt="Book Title" className={bookTitle} />
-              </Col>
-              <Col className={colBookTitle}></Col>
-            </Row>
-            <div className={rightFireBottom}></div>
-            <div className={bookCoverCon}>
-              <img src={BookCover} alt="Book Cover" className={bookCover} />
-              <div className={purchaseAlertCon}>
-                <h1>PURCHASE YOUR COPY</h1>
-                <div className={clickBtnCon}>
-                  <Button className={clickBtn}>
-                    CLICK TO ORDER FROM AMAZON
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </section>
-          <ArticleMobile/>
+          
         </>
       )}
       {!matchesLg && <DesktopHeader />}

@@ -1,6 +1,6 @@
 import React from "react";
 import DesktopHeaderStyle from "./desktopHeader.module.css";
-import Article from "./Article";
+// import Article from "./Article";
 // import Interview from "./Interview";
 
 const DesktopHeader = () => {
@@ -16,8 +16,18 @@ const DesktopHeader = () => {
   const headerBtnContainer = DesktopHeaderStyle.headerBtnContainer;
   const headerLinksCon = DesktopHeaderStyle.headerLinksCon;
   const contenth2 = DesktopHeaderStyle.contenth2;
+  const navDesktop = DesktopHeaderStyle.navDesktop
+  const navListDesktop = DesktopHeaderStyle.navListDesktop
   return (
     <header>
+      <nav className={navDesktop}>
+              <ul className = {navListDesktop}>
+                <li>Home</li>
+                <li>Interview</li>
+                <li>Article</li>
+                <li>Contact</li>
+              </ul>
+        </nav>
       <div className={headContainer}>
         <div className={headSection1}>
       
@@ -58,7 +68,7 @@ const DesktopHeader = () => {
           />
         </div>
       </div>
-      <Article />
+      
       {/* <Interview /> */}
     </header>
   );

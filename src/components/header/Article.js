@@ -1,7 +1,9 @@
 import React from 'react'
 import ArticleStyle from "./Article.module.css"
 
+
 const Article = () => {
+  
     const bookTitleCon = ArticleStyle.bookTitleCon
     const subBookTitleCon = ArticleStyle.subBookTitleCon
     const bookCoverCon = ArticleStyle.bookCoverCon
@@ -16,6 +18,7 @@ const Article = () => {
     const leftFireBolt = ArticleStyle.leftFireBolt
 
   return (
+    
     <article className={articleMainCon}> 
         <div className={bookTitleCon}>
             <div className={subBookTitleCon}>
@@ -42,6 +45,7 @@ const Article = () => {
         </div>
         </div>
     </article>
+    
   )
 }
 
